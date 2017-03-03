@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdvancedAnimation.iml" filepath="$PROJECT_DIR$/AdvancedAnimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazier/bazier.iml" filepath="$PROJECT_DIR$/bazier/bazier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pathmeasure/pathmeasure.iml" filepath="$PROJECT_DIR$/pathmeasure/pathmeasure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vectordrawable/vectordrawable.iml" filepath="$PROJECT_DIR$/vectordrawable/vectordrawable.iml" />
+    </modules>
+  </component>
+</project>

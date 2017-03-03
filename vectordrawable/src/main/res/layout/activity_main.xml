@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zfeng.advancedanimation.MainActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        app:srcCompat="@drawable/person_move"
+        android:background="@android:color/holo_green_light"
+        android:onClick="imageAnim"/>
+    <ImageView
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginTop="20dip"
+        android:scaleType="fitXY"
+        android:onClick="imageAnim"
+        app:srcCompat="@drawable/change_color"/>
+    <ImageView
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginTop="20dip"
+        android:scaleType="fitXY"
+        android:onClick="imageAnim"
+        app:srcCompat="@drawable/battery_anim"/>
+
+    <ImageView
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginTop="20dip"
+        android:scaleType="fitXY"
+        android:onClick="imageAnim"
+        app:srcCompat="@drawable/check_anim"/>
+    <Button
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginTop="20dip"
+        android:scaleType="fitXY"
+        android:onClick="imageLAnim"
+        android:text="5.0以上测试"/>
+
+</LinearLayout>
